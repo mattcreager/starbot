@@ -1,11 +1,8 @@
 # Hip:tophat:Hub
 
-HipHub is [GitHub's trending open-source](https://github.com/trending/) page, reincarnated as a Slack bot. It is also the sample referenced in the ["Slack on Heroku"]() blog post.
-
---
-
-
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
+HipHub is [GitHub's trending open-source](https://github.com/trending/) page, reincarnated as a Slack bot. It is also the sample referenced in the ["Slack on Heroku"]() blog post.
 
 
 ### Supported `/slash` commands

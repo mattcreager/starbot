@@ -140,7 +140,7 @@ Have that? 👏 Now—move along.
 
 
 ```js
- // paste in web_hook.js
+// paste in web_hook.js
 ```
 
 ### :heroku_icon:

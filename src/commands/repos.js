@@ -15,23 +15,18 @@ const handler = (payload, res) => {
   trending('javascript', (err, repos) => {
     if (err) throw err
 
-    var fields = repos.slice(0, 5).map((repo) => {
+    var attachments = repos.slice(0, 5).map((repo) => {
       return {
         title: `${repo.owner}/${repo.title} `,
-        value: `_${repo.description}_\n${repo.language} • <${repo.url}|${repo.star}>`
+        title_link: repo.url,
+        text: `_${repo.description}_\n${repo.language} • ${repo.star}>`,
+        mrkdwn_in: ['text', 'pretext']
       }
     })
 
-    let textAndFallback = 'Here\'s what\'s hip on GitHub today'
-
     let msg = _.defaults({
       channel: payload.channel_name,
-      attachments: [{
-        title: textAndFallback,
-        fallback: textAndFallback,
-        mrkdwn_in: [ 'fields' ],
-        fields: fields
-      }]
+      attachments: attachments
     }, msgDefaults)
 
     res.set('content-type', 'application/json')

@@ -12,8 +12,6 @@ Create a `/hiphub` [custom slash command](https://api.slack.com/slash-commands),
 - `/hiphub` or `/hiphub help` - List available commands
 - `/hiphub repos` - Display trending GitHub projects
 
-## Usage
-
 ### Install
 
 ```shell

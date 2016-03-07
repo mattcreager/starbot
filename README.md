@@ -56,20 +56,11 @@ Creating app... done, stack is cedar-14
 https://blooming-scrubland-64464.herokuapp.com/
 
 $ git push heroku master
-
-Counting objects: 15, done.
-Delta compression using up to 8 threads.
-Compressing objects: 100% (14/14), done.
-Writing objects: 100% (15/15), 5.72 KiB | 0 bytes/s, done.
-Total 15 (delta 0), reused 0 (delta 0)
-remote: Compressing source files... done.
-remote: Building source:
-remote:
+...
 remote: -----> Node.js app detected
 ...
 remote:        https://blooming-scrubland-64464.herokuapp.com/ deployed to Heroku
-remote:
-remote: Verifying deploy.... done.
+...
 To https://git.heroku.com/blooming-scrubland-64464.git
  * [new branch]      master -> master
 

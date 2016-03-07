@@ -7,8 +7,7 @@ HipHub is [GitHub's trending open-source](https://github.com/trending/) page, re
 
 ### Supported `/slash` commands
 
-
-### `/hiphub` :arrow_forward: `{app-name}.herokuapp.com/commands/hiphub`
+Create a `/hiphub` [custom slash command](https://api.slack.com/slash-commands), using the URL: `{app-name}.herokuapp.com/commands/hiphub`. *Take note of the provided `token`, this is used to verify requests come from Slack.*
 
 - `/hiphub` or `/hiphub help` - List available commands
 - `/hiphub repos` - Display trending GitHub projects
